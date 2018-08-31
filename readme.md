@@ -146,6 +146,11 @@ It doesn't look like much yet, but we can see that the content hierarchy and str
 
 Looking at this raw HTML, we can see that the browser has applied default styles for us and the headers and paragraphs are different sizes and font weights. That was nice of them!
 
+
+However, for our purposes here, we are going to start all of our styling from scratch by adding a `reset` file to what we are building. Although defauly styles can have their uses - there are some days (like today) where we want full control of the styling and sizing of our content. Within your codepen, go to the `Settings` gear, select the option for `CSS` and select the option to set the `CSS Base` to `Reset`. 
+
+Notice how the default styles have been removed. Now we can truly start from scratch.
+  
 ## But What About Our Styling?
 
 This is where CSS comes in.
@@ -216,7 +221,7 @@ The document flow is the model by which elements are rendered by default in the 
 - Block elements: `p`, `h1`, `ul`, `li`, almost everything else
 
 
-##### Making a Navigation Bar
+##### Let's Make a Navigation Bar
 
 The first element we see is the header bar at the top of the page. We can see that we have a logo on the left side and three links on the right side.
 
@@ -315,14 +320,35 @@ nav li:hover {
   cursor: pointer;
 }
 ```
+<!-- 
+header h1 {
+  float: left;
+  text-indent: -9999px;
+  background: url('../images/dog-icon.svg') no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+} -->
+
+**Challenge Time**
+Take a look at your `header h1` selector that currently has a float of left. Modify it so that we can add the dog icon to what we have:
+
+```css
+header h1 {
+  background: url('https://s33.postimg.cc/d8a1720db/dog-icon.png') no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+```
+However... now we have the "Dog Party" text and our image clashing. How might we move this text over without deleting the text completely? 
+
+_Hint:Look into the [`text-indent` CSS property](https://css-tricks.com/almanac/properties/t/text-indent/)_
+
 
 And that's our header!
 
-**Extra Challenge**
-Replace the `<h1>` element with an image element that is given an icon for the value of the `src` attribute. You can find more information about how to incorporate the image element [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
-
-
-#### Try On Your Own: Making a Hero Unit
+#### With a Partner: Making a Hero Unit
 
 Next thing to tackle is the hero unit. This may sound like a strange term, but it's common way to describe a large splash section on a landing page. It basically just means that this section is the first one people will see, so it needs to make a great first impression -- it's a hero.
 
@@ -453,7 +479,7 @@ All that's left is styling our CTA link:
 
 Now our hero unit is complete. 🎉
 
-##### Making 3 Columns
+##### On Your Own: Making 3 Columns
 
 ![Three Column Section](/assets/three-cols.png)
 
@@ -601,7 +627,7 @@ In your CSS, try removing `#hero` from your current `<a>` styles. You should see
 }
 ```
 
-##### Making The Footer
+##### Almost there: Making The Footer
 
 ![The Footer](/assets/footer.png)
 
