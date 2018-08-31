@@ -61,7 +61,7 @@ We use `<p>` to signal to the browser that everything that's about to follow is 
 
 #### Turn and Talk
 
-Explain HTML in your own words to the person next to you. 
+Explain HTML in your own words to the person next to you.
 
 # Setup for Today
 
@@ -132,11 +132,11 @@ It doesn't look like much yet, but we can see that the content hierarchy and str
 
 ![Image of Dog Party Site](images/example/road-map.png)
 
-Looking at this raw HTML, we can see that the browser has applied default styles for us and the headers and paragraphs are different sizes and font weights. That was nice of them! 
+Looking at this raw HTML, we can see that the browser has applied default styles for us and the headers and paragraphs are different sizes and font weights. That was nice of them!
 
 ## But What About Our Styling?
 
-This is where CSS comes in. 
+This is where CSS comes in.
 
 #### CSS The Basics
 It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works _with_ HTML, but isn't HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a `class` and `id` attribute available to use on __every__ html element. In addition to the plain old tag names themselves, these attributes allow you to create "targets" for your css. They are hooks so that you can manipulate the look and behavior (JavaScript) of your HTML elements.
@@ -173,7 +173,7 @@ article {
 
 There are MANY properties that you can utilize to style the elements on your page. [CSS Tricks](https://css-tricks.com/almanac/properties/) is a good, visual resource for digging in further.
 
-#### Turn and Talk 
+#### Turn and Talk
 Take a moment with the person next to you and test out three new properties together.
 
 ### Box-Sizing and the CSS Box Model:
@@ -542,7 +542,7 @@ Let's get the images to be a consistent size, put that fancy border radius on th
 }
 ```
 
-Now all that's left on our columns is to get our `<a>` tag styled as a button. Hmm. Didn't we already style an `<a>` tag like a button in our hero unit? Why write the same CSS twice, let's just reuse what we already have. 
+Now all that's left on our columns is to get our `<a>` tag styled as a button. Hmm. Didn't we already style an `<a>` tag like a button in our hero unit? Why write the same CSS twice, let's just reuse what we already have.
 
 To make our existing styles be applied to all our `<a>` tags instead of just the `<a>` tag in our `#hero` section, our [selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) will change from this:
 
@@ -740,7 +740,7 @@ The CSS for our basic link styles will look like this:
 
 Our page is more or less done, but we can go back and polish it up a little bit. Let's see what we have:
 
-![Image of Dog Party Site](images/example/full-layout.png)
+![Image of Dog Party Site](/assets/dog-party.png)
 
 A few things we can do now to tighten our layout up:
 
