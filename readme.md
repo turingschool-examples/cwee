@@ -1,3 +1,5 @@
+https://slides.com/thatpamiam/what-is-front-end-engineering/#/
+
 # Build a Simple One-Page Static Site
 
 ### Goals
