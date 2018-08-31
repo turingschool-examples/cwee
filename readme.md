@@ -22,7 +22,7 @@ HTML and CSS are used everywhere on the web, and engaging and appealing pages ca
 
 ## Let's start with the Structure
 
-#### What is HTML?
+### What is HTML?
 
  * HTML = HyperText Markup Language  
  * Each page contains a series of connections to other pages called links
@@ -31,12 +31,12 @@ HTML and CSS are used everywhere on the web, and engaging and appealing pages ca
  * Elements are used to hold our content and define how the browser must format and display the content.
  * Tags are created with angle brackets `<>` and are used to create elements
 
-## Anatomy of a Tag
+### Anatomy of a Tag
 ![Anatomy of an HTML Tag](/assets/html-tag.jpg)
 
 Just like you wouldn't build a house without framing the walls first, it's a good idea to write up the basic HTML structure of your site before you begin to add content and style your page.
 
-## Example
+#### Example
 
 Let's say that we had some text and we wanted to denote that this text was a paragraph.
 
@@ -155,10 +155,10 @@ Notice how the default styles have been removed. Now we can truly start from scr
 
 This is where CSS comes in.
 
-#### CSS The Basics
+## CSS The Basics
 It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works _with_ HTML, but isn't HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a `class` and `id` attribute available to use on __every__ html element. In addition to the plain old tag names themselves, these attributes allow you to create "targets" for your css. They are hooks so that you can manipulate the look and behavior (JavaScript) of your HTML elements.
 
-## Anatomy of a Basic CSS Rule
+### Anatomy of a Basic CSS Rule
 
 # ![CSS Rule](/assets/css-rule.png)
 
@@ -167,7 +167,7 @@ It’s a “style sheet language” that lets you style the HTML elements on you
 * Can target via id name
 * Can target via a combination of above
 
-## All the Elements are Boxes
+### All the Elements are Boxes
 Each element is a rectangular box. CSS leverages "the box model" to control layout and design. An HTML element is comprised of its content and the margins, borders, padding surrounding it. Boxes are "stacked" in the order they appear in your HTML. You can stack them horizontally, vertically, and in the z-plane.
 
 # ![Box Model](/assets/box-model.jpg)
@@ -193,7 +193,7 @@ There are MANY properties that you can utilize to style the elements on your pag
 #### Turn and Talk
 Take a moment with the person next to you and test out three new properties together.
 
-### Box-Sizing and the CSS Box Model:
+## Box-Sizing and the CSS Box Model:
 
 In HTML, you can visualize each element as its own rectangular box. There are a number of CSS properties that can affect the final width and height of each of these boxes. The CSS Box Model describes how the final height and width of an element is determined.
 
@@ -221,7 +221,7 @@ The document flow is the model by which elements are rendered by default in the 
 - Block elements: `p`, `h1`, `ul`, `li`, almost everything else
 
 
-##### Let's Make a Navigation Bar
+# Let's Make a Navigation Bar
 
 The first element we see is the header bar at the top of the page. We can see that we have a logo on the left side and three links on the right side.
 
@@ -330,7 +330,8 @@ header h1 {
   margin-top: 8px;
 } -->
 
-**Challenge Time**
+#### Challenge Time
+
 Take a look at your `header h1` selector that currently has a float of left. Modify it so that we can add the dog icon to what we have:
 
 ```css
@@ -345,10 +346,10 @@ However... now we have the "Dog Party" text and our image clashing. How might we
 
 _Hint:Look into the [`text-indent` CSS property](https://css-tricks.com/almanac/properties/t/text-indent/)_
 
-
 And that's our header!
 
-#### With a Partner: Making a Hero Unit
+
+# With a Partner: Making a Hero Unit
 
 Next thing to tackle is the hero unit. This may sound like a strange term, but it's common way to describe a large splash section on a landing page. It basically just means that this section is the first one people will see, so it needs to make a great first impression -- it's a hero.
 
@@ -479,7 +480,7 @@ All that's left is styling our CTA link:
 
 Now our hero unit is complete. 🎉
 
-##### On Your Own: Making 3 Columns
+# On Your Own: Making 3 Columns
 
 ![Three Column Section](/assets/three-cols.png)
 
@@ -627,7 +628,7 @@ In your CSS, try removing `#hero` from your current `<a>` styles. You should see
 }
 ```
 
-##### Almost there: Making The Footer
+# Almost there: Making The Footer
 
 ![The Footer](/assets/footer.png)
 
@@ -774,7 +775,7 @@ The CSS for our basic link styles will look like this:
 ```
 
 
-### The Extra Mile: Tightening Up The Page
+## The Extra Mile: Tightening Up The Page
 
 Our page is more or less done, but we can go back and polish it up a little bit. Let's see what we have:
 
@@ -785,6 +786,6 @@ A few things we can do now to tighten our layout up:
 * have the main navigation in the header link to the appropriate columns of content in the page
 * update the color and size of the headers in the columns
 * Add a thin, darker teal bottom border to the header bar
-* There are few visual inconsistencies between our site and the original comp. Work on   making adjustments so our site looks the same as the comp.
+* There are few visual inconsistencies between our site and the original comp. Work on making adjustments so our site looks the same as the comp.
 
 Take a crack at these final layout tweaks, and give yourself a big pat on the back! You just made a page from scratch with HTML and CSS.
