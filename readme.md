@@ -1,10 +1,4 @@
-Build a simple one-page static site to learn about HTML and CSS fundamentals. View the example site here: http://turingschool-examples.github.i…
-
-  ---
-title: HTML and CSS fundamentals static site
-length: 90
-tags: html, css
----
+# Build a Simple One-Page Static Site
 
 ### Goals
 
