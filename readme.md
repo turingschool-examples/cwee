@@ -64,7 +64,7 @@ Let's head over to [codepen.io](http://codepen.io/) for a quick tour + account s
 
 Now, let's take a look at the site we want to build:
 
-![Image of Dog Party Site](images/example/main-page.png)
+![Image of Dog Party Site](/assets/main-page.png)
 
 From this screen grab we can see that we have the following elements:
 
@@ -124,7 +124,7 @@ Now that we have our roadmap, let's add a little placeholder content so we can o
 
 It doesn't look like much yet, but we can see that the content hierarchy and structure makes sense.
 
-![Image of Dog Party Site](images/example/road-map.png)
+![Image of Dog Party Site](/assets/road-map.png)
 
 Looking at this raw HTML, we can see that the browser has applied default styles for us and the headers and paragraphs are different sizes and font weights. That was nice of them!
 
@@ -301,7 +301,7 @@ nav li:hover {
 And that's our header!
 
 **Extra Challenge**
-Replace the `<h1>` element with an image element. You can find more information about how to incorporate the image element [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+Replace the `<h1>` element with an image element that is given an icon for the value of the `src` attribute. You can find more information about how to incorporate the image element [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 
 
 #### Try On Your Own: Making a Hero Unit
@@ -437,7 +437,7 @@ Now our hero unit is complete. 🎉
 
 ##### Making 3 Columns
 
-![Three Column Section](images/example/three-cols.png)
+![Three Column Section](/assets/three-cols.png)
 
 In this content section, we have three columns that sit side by side. If we look at them, we see that they all have the same structure, style, and content organization. They consist of a title, an image, a block of text, and a button. We know that each column will have the same structure with different content, so we will use the same base HTML and styles for all three and then simply plug in the unique content for each. This lets us keep our code DRY and avoid duplication, and gives us the flexibility to easily reuse these styles elsewhere in our site down the road.  
 
@@ -585,7 +585,7 @@ In your CSS, try removing `#hero` from your current `<a>` styles. You should see
 
 ##### Making The Footer
 
-![The Footer](images/example/footer.png)
+![The Footer](/assets/footer.png)
 
 The last thing to style is our footer. Let's start by building the HTML structure for this final grouping of content. We see that we have three blocks of information: a subhead, a collection of social media icons, and a link back to the repo.
 
@@ -734,7 +734,7 @@ The CSS for our basic link styles will look like this:
 
 Our page is more or less done, but we can go back and polish it up a little bit. Let's see what we have:
 
-![Image of Dog Party Site](/assets/dog-party.png)
+![Image of Dog Party Site](/assets/full-layout.png)
 
 A few things we can do now to tighten our layout up:
 
