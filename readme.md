@@ -76,21 +76,21 @@ From this screen grab we can see that we have the following elements:
 You can find the links to all the images that you will need to build out your site below:
 
 **Icon**
-https://postimg.cc/image/bt8gibza3/
+* https://postimg.cc/image/bt8gibza3/
 
 **Dogs**
-https://postimg.cc/image/oxe0v0z1n/
-https://postimg.cc/image/mstnty54r/
-https://postimg.cc/image/8mdwyqwuj/
+* https://postimg.cc/image/oxe0v0z1n/
+* https://postimg.cc/image/mstnty54r/
+* https://postimg.cc/image/8mdwyqwuj/
 
 **Social Media Icons**
-https://postimg.cc/image/9bwpb32iz/
-https://postimg.cc/image/vnui4hh2j/
-https://postimg.cc/image/7k3qg6qvv/
-https://postimg.cc/image/b3po60w6j/
+* https://postimg.cc/image/9bwpb32iz/
+* https://postimg.cc/image/vnui4hh2j/
+* https://postimg.cc/image/7k3qg6qvv/
+* https://postimg.cc/image/b3po60w6j/
 
 **Hero Image**
-https://postimg.cc/image/grvywwst7/
+* https://postimg.cc/image/grvywwst7/
 
 The first thing we'll do is break this layout down into HTML tags to help us clarify how we want to build the page. Let's write up the skeleton HTML so we have a roadmap to follow as we work. Fork [this codepen](https://codepen.io/plovett/pen/oPBxEr?editors=1010) and we can walk through it together from the top down
 
