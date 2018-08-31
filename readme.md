@@ -76,21 +76,22 @@ From this screen grab we can see that we have the following elements:
 You can find the links to all the images that you will need to build out your site below:
 
 **Icon**
-* https://postimg.cc/image/bt8gibza3/
+* https://s33.postimg.cc/d8a1720db/dog-icon.png
 
 **Dogs**
-* https://postimg.cc/image/oxe0v0z1n/
-* https://postimg.cc/image/mstnty54r/
-* https://postimg.cc/image/8mdwyqwuj/
+* https://s33.postimg.cc/6525rg2nj/dog1-sq.jpg
+* https://s33.postimg.cc/tja53dsan/dog2-sq.jpg
+* https://s33.postimg.cc/tw1j9ld5b/dog3-sq.jpg
+* https://s33.postimg.cc/52rz8xmf3/dog4-sq.jpg
 
 **Social Media Icons**
-* https://postimg.cc/image/9bwpb32iz/
-* https://postimg.cc/image/vnui4hh2j/
-* https://postimg.cc/image/7k3qg6qvv/
-* https://postimg.cc/image/b3po60w6j/
+* https://s33.postimg.cc/enblvsolr/facebook.png
+* https://s33.postimg.cc/9bwpb3hyn/instagram.png
+* https://s33.postimg.cc/o7v8iolnj/linkedin.png
+* https://s33.postimg.cc/strcr29rj/twitter.png
 
 **Hero Image**
-* https://postimg.cc/image/grvywwst7/
+* https://s33.postimg.cc/w0lwaomhr/park.jpg
 
 The first thing we'll do is break this layout down into HTML tags to help us clarify how we want to build the page. Let's write up the skeleton HTML so we have a roadmap to follow as we work. Fork [this codepen](https://codepen.io/plovett/pen/oPBxEr?editors=1010) and we can walk through it together from the top down
 
@@ -363,7 +364,7 @@ We'll also need to add the additional content to our `#hero` section.
 ```html
 <section id="hero">
   <h2>A Site About Some Dogs</h2>
-  <img src="images/dog1-sq.jpg" alt="hero dog"/>
+  <img src="https://s33.postimg.cc/6525rg2nj/dog1-sq.jpg" alt="hero dog"/>
   <a href="http://corgis-in-space.tumblr.com/" target="_blank">What are Dogs</a>
 </section>
 ```
@@ -372,7 +373,7 @@ It shouldn't look great to start. But now that we have our content in our HTML, 
 
 ```css
 #hero {
-  background: url('../images/park.jpg') no-repeat;
+  background: url('https://s33.postimg.cc/w0lwaomhr/park.jpg') no-repeat;
   background-size: cover;
   text-align: center;
   padding: 50px 0;
@@ -493,7 +494,7 @@ Not a whole lot has changed. Time to put in content! Let's add images and text. 
   <section>
     <article class="three-col">
       <h3>How</h3>
-      <img src="images/dog2-sq.jpg" alt="first image"/>
+      <img src="https://s33.postimg.cc/tja53dsan/dog2-sq.jpg" alt="first image"/>
       <p>
         Nap all day Gate keepers of hell yet stares at human while pushing stuff off a table. Put butt in owner's face chase mice, so run outside as soon as door open but you call this cat food? stare at the wall, play with food and get confused by dust.
       </p>
@@ -502,7 +503,7 @@ Not a whole lot has changed. Time to put in content! Let's add images and text. 
 
     <article class="three-col">
       <h3>What</h3>
-      <img src="images/dog3-sq.jpg" alt="second image"/>
+      <img src="https://s33.postimg.cc/tw1j9ld5b/dog3-sq.jpg" alt="second image"/>
       <p>
         Soft kitty warm kitty little ball of furr. Hunt anything that moves meowing non stop for food stand in front of the computer screen knock dish off table head butt cant eat out of my own dish, then cats take over the world hide when guests come over.
       </p>
@@ -511,7 +512,7 @@ Not a whole lot has changed. Time to put in content! Let's add images and text. 
 
     <article class="three-col">
       <h3>Facts</h3>
-      <img src="images/dog4-sq.jpg" alt="third image"/>
+      <img src="https://s33.postimg.cc/52rz8xmf3/dog4-sq.jpg" alt="third image"/>
       <p>
         Destroy the blinds chase imaginary bugs, so lie on your belly and purr when you are asleep. Fall asleep on the washing machine give attitude hunt anything that moves groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!
       </p>
@@ -529,7 +530,7 @@ Now we see that we have all our content, but it's looking pretty rough. The thre
 }
 ```
 
-Refresh your page and we'll see that this got our content into columns, but it would be nice if all the columns were level. Turns out there is a simple way to do just that, with the [`vertical-align` property](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align). While we're at it, let's go ahead and center the content and give our columns some right and left margin, too.
+Now we have our content in columns, but it would be nice if all the columns were level. Turns out there is a simple way to do just that, with the [`vertical-align` property](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align). While we're at it, let's go ahead and center the content and give our columns some right and left margin, too.
 
 ```css
 .three-col {
@@ -628,10 +629,10 @@ Let's add our content:
 <footer>
   <h4>Learn About Dogs Online</h4>
   <ul>
-    <li><img src="images/facebook.svg"/></li>
-    <li><img src="images/twitter.svg"/></li>
-    <li><img src="images/instagram.svg"/></li>
-    <li><img src="images/linkedin.svg"/></li>
+    <li><img src="https://s33.postimg.cc/enblvsolr/facebook.png"/></li>
+    <li><img src="https://s33.postimg.cc/strcr29rj/twitter.png"/></li>
+    <li><img src="https://s33.postimg.cc/9bwpb3hyn/instagram.png"/></li>
+    <li><img src="https://s33.postimg.cc/o7v8iolnj/linkedin.png"/></li>
   </ul>
   <a href="https://github.com/turingschool-examples/cwee" target="_blank">See this on GitHub</a>
 </footer>
@@ -712,7 +713,7 @@ Make sure to remove the styles associated with the `<a>` tags in your `.css` fil
 ```html
 <section id="hero">
   <h2>A Site About Some Dogs</h2>
-  <img src="images/dog1-sq.jpg" alt="hero dog"/>
+  <img src="https://s33.postimg.cc/6525rg2nj/dog1-sq.jpg" alt="hero dog"/>
   <a href="http://corgis-in-space.tumblr.com/" target="_blank" class="btn">What are Dogs</a>
 </section>
 ```
@@ -725,10 +726,10 @@ Back in our footer, our `<a>` is looking closer to what we want. Let's add `clas
 <footer>
   <h4>Learn About Dogs Online</h4>
   <ul>
-    <li><img src="images/facebook.svg"/></li>
-    <li><img src="images/twitter.svg"/></li>
-    <li><img src="images/instagram.svg"/></li>
-    <li><img src="images/linkedin.svg"/></li>
+    <li><img src="https://s33.postimg.cc/enblvsolr/facebook.png"/></li>
+    <li><img src="https://s33.postimg.cc/strcr29rj/twitter.png"/></li>
+    <li><img src="https://s33.postimg.cc/9bwpb3hyn/instagram.png"/></li>
+    <li><img src="https://s33.postimg.cc/o7v8iolnj/linkedin.png"/></li>
   </ul>
   <a href="" target="_blank" class="link">See this on GitHub</a>
 </footer>
